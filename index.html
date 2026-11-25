@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Политика конфиденциальности — Сказалия · Privacy Policy — Skazalia</title>
+<meta name="description" content="Как Сказалия создаёт сказки и обрабатывает данные и покупки. How Skazalia handles story data and purchases.">
+<style>
+  :root{
+    --bg:#ffffff; --fg:#1d1333; --muted:#6b5f85;
+    --brand:#6B21C8; --brand-soft:#f1e9fc; --line:#e4dcf2;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --bg:#140f22; --fg:#ece6f8; --muted:#a99cc4;
+           --brand:#a97bf0; --brand-soft:#241a3a; --line:#322747; }
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--fg);
+    font:17px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    -webkit-text-size-adjust:100%}
+  header{background:var(--brand);color:#fff;padding:40px 20px 34px}
+  .wrap{max-width:720px;margin:0 auto;padding:0 20px}
+  header .wrap{padding:0 20px}
+  h1{margin:0 0 6px;font-size:30px;line-height:1.2;letter-spacing:-.01em}
+  .sub{opacity:.88;font-size:15px;margin:0}
+  main{padding:34px 0 60px}
+  h2{margin:34px 0 10px;font-size:20px;letter-spacing:-.01em}
+  h2:first-child{margin-top:0}
+  p{margin:0 0 14px}
+  ul{margin:0 0 14px;padding-left:22px}
+  li{margin:4px 0}
+  .lead{background:var(--brand-soft);border-left:4px solid var(--brand);
+    padding:16px 18px;border-radius:0 10px 10px 0;margin:0 0 8px}
+  .lead p{margin:0}
+  a{color:var(--brand)}
+  footer{border-top:1px solid var(--line);margin-top:40px;padding-top:18px;
+    color:var(--muted);font-size:14px}
+  /* Переключатель языка. Кнопки, а не ссылки: страница одна, адрес не меняется,
+     и Apple видит одну и ту же ссылку для всех витрин. */
+  .langs{margin:18px 0 0;display:flex;flex-wrap:wrap;gap:8px}
+  .langs button{font:inherit;font-size:15px;padding:7px 14px;border-radius:999px;
+    border:1px solid rgba(255,255,255,.45);background:transparent;color:#fff;cursor:pointer}
+  .langs button[aria-pressed="true"]{background:#fff;color:var(--brand);border-color:#fff;font-weight:600}
+  [data-lang]{display:none}
+  [data-lang].on{display:block}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <h1>Сказалия · Skazalia</h1>
+    <p class="sub"><span data-lang="ru" class="on">Политика конфиденциальности</span><span data-lang="en">Privacy Policy</span></p>
+    <div class="langs">
+      <button type="button" data-set="ru" aria-pressed="true">Русский</button>
+      <button type="button" data-set="en" aria-pressed="false">English</button>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+
+<section data-lang="ru" class="on">
+  <p class="sub">Редакция от 25 ноября 2026 года. Разработчик — Никита Буртный.</p>
+
+  <h2>Коротко</h2>
+
+  <p>На устройстве хранятся профили семьи, библиотека сказок, звёздочки и прогресс. Для создания и озвучивания сказки приложение обращается к серверу. Перед первым заказом родитель подтверждает передачу параметров истории.</p>
+
+  <h2>Как создаётся сказка</h2>
+
+  <p>Сервер передаёт сервису DeepSeek (Hangzhou DeepSeek Artificial Intelligence Co., Ltd., Китай) параметры истории. В них входят имена героев, другие персонажи, место, злодей, настроение, мораль, концовка, возрастная группа, длина и выбранные темы. Для продолжения также передаётся краткий пересказ предыдущей части.</p>
+
+  <p>Приложение может предложить имя из профиля в качестве имени героя. На сервер уйдёт имя, которое вы оставите в заказе. Можно выбрать выдуманное имя. Пожалуйста, не вводите фамилии, адреса и другие сведения, по которым можно узнать ребёнка.</p>
+
+  <p>DeepSeek обрабатывает переданный текст в Китае. Его условия допускают использование данных для улучшения моделей. По вопросам использования и хранения текста можно написать разработчику или на privacy@deepseek.com. Описанный ниже часовой срок относится к серверу Сказалии.</p>
+
+  <h2>Что временно хранит сервер Сказалии</h2>
+
+  <p>Сервер держит готовый текст, мораль и вопросы в оперативной памяти, чтобы устройство могло забрать заказ после разрыва связи. В версии сервера от 25 ноября 2026 года результат доступен один час с момента готовности. Затем выдача прекращается, запись удаляется автоматически при ближайшем цикле очистки. Перезапуск сервера очищает память. Прежние версии выполняли очистку при следующем запросе статуса, поэтому результат мог оставаться в памяти дольше.</p>
+
+  <p>Для озвучки сервер получает текст сказки и реплик. При кодировании он создаёт временные звуковые файлы и удаляет их по окончании обработки. Технический журнал может содержать номер заказа, размеры, время обработки, ошибки и сетевой адрес при превышении частоты запросов.</p>
+
+  <h2>Покупки для родителей</h2>
+
+  <p>За родительским вопросом доступны пакеты на 5 или 15 сказок и подписка «Безлимит» на месяц или год. Платёж обрабатывает Apple. Приложение хранит на устройстве баланс и идентификаторы обработанных транзакций, а через App Store проверяет право на подписку. Разработчик не получает реквизиты карты.</p>
+
+  <h2>Разрешения и использование детьми</h2>
+
+  <p>Сказалия рассчитана на совместное использование детьми и родителями. Для связи с домашним сервером приложение может запросить доступ к локальной сети. Доступ к камере, микрофону, контактам, геопозиции и фотографиям не требуется. В приложении нет рекламы, сторонней аналитики, трекинга и регистрации.</p>
+
+  <h2>Удаление данных</h2>
+
+  <p>Удаление приложения удаляет его локальную библиотеку, баланс и прогресс с устройства. Подпиской можно управлять в настройках Apple Account. Удаление приложения само по себе не отменяет подписку и не удаляет историю операций у Apple. По вопросам об уже переданном тексте свяжитесь с разработчиком.</p>
+
+  <h2>Контакты</h2>
+
+  <p><a href="mailto:klopovka.games@gmail.com">klopovka.games@gmail.com</a></p>
+</section>
+
+<section data-lang="en">
+  <p class="sub">Updated 25 November 2026. Developer — Nikita Burtnyi.</p>
+
+  <h2>In brief</h2>
+
+  <p>Family profiles, the story library, stars and progress are saved on the device. The app contacts a server to generate and narrate a story. A parent is asked to agree before the first request.</p>
+
+  <h2>How stories are created</h2>
+
+  <p>The server sends story details to DeepSeek (Hangzhou DeepSeek Artificial Intelligence Co., Ltd., China). These include hero names, other characters, setting, villain, mood, moral, ending, age group, length and selected interests. For sequels, a summary of the preceding story is also sent.</p>
+
+  <p>The app can suggest a profile name as a hero name. The name you leave in the request is sent to the server. You can use a made-up name. Please avoid surnames, addresses and other details that could identify a child.</p>
+
+  <p>DeepSeek processes submitted text in China. Its terms allow data to be used to improve models. For questions about use or retention, contact the developer or privacy@deepseek.com. The one-hour period below applies to the Skazalia server.</p>
+
+  <h2>Temporary storage on the Skazalia server</h2>
+
+  <p>The server keeps the finished story, moral and quiz in memory so the device can retrieve them after a disconnection. In the server version dated 25 November 2026, the result is available for one hour from completion. Access then expires and the next automatic cleanup removes the entry. Restarting the server clears this memory. Older server versions cleaned up on the next status request and could retain results longer.</p>
+
+  <p>For narration, the server receives the story and short passages. It uses temporary audio files during encoding and removes them when processing finishes. Diagnostic logs may include job identifiers, sizes, processing times, errors and the network address when a rate limit is exceeded.</p>
+
+  <h2>Purchases for parents</h2>
+
+  <p>Behind the parental gate, adults can purchase packs of 5 or 15 stories or a monthly or annual Unlimited subscription. Apple handles payment. The app stores the balance and processed transaction identifiers on the device and checks subscription entitlement with the App Store. The developer does not receive card details.</p>
+
+  <h2>Permissions and use by children</h2>
+
+  <p>Skazalia is designed for children and parents to use together. It can request local network access to reach a home server. It does not require access to the camera, microphone, contacts, location or photos. There are no ads, third-party analytics, tracking or registration.</p>
+
+  <h2>Deleting data</h2>
+
+  <p>Deleting the app removes its local library, balance and progress from the device. Subscriptions can be managed in Apple Account settings. Removing the app does not cancel a subscription or delete Apple’s transaction history. Contact the developer about text already sent.</p>
+
+  <h2>Contact</h2>
+
+  <p><a href="mailto:klopovka.games@gmail.com">klopovka.games@gmail.com</a></p>
+</section>
+
+<footer>
+  <p><span data-lang="ru" class="on">Сказалия — приложение, которое сочиняет персональные сказки. Обновлено 25 ноября 2026 года.</span><span data-lang="en">Skazalia — an app that composes personal fairy tales. Updated 25 November 2026.</span></p>
+</footer>
+</main>
+
+<script>
+  // Переключение языка без смены адреса: Apple указывает одну ссылку для всех витрин.
+  var buttons = document.querySelectorAll('.langs button');
+  function setLang(code){
+    document.documentElement.lang = code;
+    document.querySelectorAll('[data-lang]').forEach(function(el){
+      el.classList.toggle('on', el.getAttribute('data-lang') === code);
+    });
+    buttons.forEach(function(b){
+      b.setAttribute('aria-pressed', String(b.getAttribute('data-set') === code));
+    });
+  }
+  buttons.forEach(function(b){
+    b.addEventListener('click', function(){ setLang(b.getAttribute('data-set')); });
+  });
+  // Гостю с нерусским устройством сразу показываем английский.
+  if (!(navigator.language || '').toLowerCase().startsWith('ru')) { setLang('en'); }
+</script>
+</body>
+</html>
